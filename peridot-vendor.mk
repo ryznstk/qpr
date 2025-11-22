@@ -1127,7 +1127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libPipeline_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libPipeline_plugin.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libVkLayer_ADRENO_qprofiler.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/gpu++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gpu++.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/android.hardware.audio.common@7.1-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.1-util.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libadreno_compiler_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_compiler_cl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbadreno_utils.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbgsl.so \
