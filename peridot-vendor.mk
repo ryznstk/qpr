@@ -947,8 +947,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.weaver-service.nxp-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.nxp-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -1039,8 +1037,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint3-nxp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint3-nxp.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km300.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km300.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
@@ -1128,7 +1124,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    android.hardware.security.keymintperidot \
     btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.imscmservice@1.0 \
@@ -1146,7 +1141,6 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
-    ese_weaver \
     android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
@@ -1265,7 +1259,6 @@ PRODUCT_PACKAGES += \
     libcodec2_store_dolby \
     libconfigdb \
     libcpion \
-    libcppbor_peridot \
     libcustomva_intf \
     libcv_common \
     libdapparamstorage \
@@ -1337,8 +1330,6 @@ PRODUCT_PACKAGES += \
     libintervmipc \
     libizat_client_api \
     libizat_core \
-    libjc_keymint_nxp \
-    libjc_keymint_transport_nxp \
     libjnihelper \
     libkaraokepal \
     libkcl \
@@ -2432,9 +2423,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.voice.xml \
     android.hardware.secure_element.xml \
     android.hardware.security.keymint-service-qti.xml \
-    android.hardware.security.keymint3-service.strongbox-nxp.xml \
-    android.hardware.security.sharedsecret3-service.strongbox-nxp.xml \
-    android.hardware.weaver-service.nxp-qti.xml \
     atfwd-saidl.xml \
     bttpi-saidl.xml \
     c2_manifest_vendor.xml \
@@ -2509,11 +2497,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-service-qti \
     android.hardware.contexthub-service.qmi \
     android.hardware.gatekeeper-service-qti \
-    android.hardware.keymaster@4.0-service-qti \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
-    android.hardware.security.keymint-service.strongbox-nxp \
-    android.hardware.weaver-service.nxp-qti \
     qconfigservice \
     qcrilNrd \
     qvrservice \
