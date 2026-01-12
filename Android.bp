@@ -5,7 +5,6 @@
 soong_namespace {
     imports: [
         "device/xiaomi/peridot",
-        "hardware/lineage/compat",
         "hardware/qcom-caf/sm8650",
         "hardware/qcom-caf/wlan",
         "hardware/qcom-caf/common/libqti-perfd-client",
@@ -30830,6 +30829,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/hw/camera.xiaomi.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libcutils",
                 "libcamera_metadata",
                 "libcom.xiaomi.debug",
@@ -30844,7 +30844,7 @@ cc_prebuilt_library_shared {
                 "libmialgoengine",
                 "libsync",
                 "libutils",
-                "libui-v34",
+                "libui",
                 "libhidlbase",
                 "libprocessgroup",
                 "libcom.xiaomi.attribute",
