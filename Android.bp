@@ -31303,6 +31303,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/hw/camera.xiaomi.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libcutils",
                 "libcamera_metadata",
                 "libcom.xiaomi.debug",
