@@ -4,8 +4,8 @@
 
 soong_namespace {
     imports: [
-        "hardware/lineage/compat",
         "device/xiaomi/peridot",
+        "hardware/lineage/compat",
         "hardware/qcom-caf/sm8650",
         "hardware/qcom-caf/wlan",
         "hardware/qcom-caf/common/libqti-perfd-client",
